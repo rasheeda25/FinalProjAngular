@@ -1,0 +1,28 @@
+<div class="container">
+    <a routerLink="/viewTower/{{towers[0].csa.csaId}}" class="button">
+      View CSA Details
+    </a>
+</div>
+
+<div class="row center m-auto">
+  <div class="col-lg-2 col-md-4 col-sm-6 ml-1 mb-1" *ngFor="let t of towers">
+    <div class="card bg-dark text-white">
+      <img class="card-img-top" [src]="" />
+      <div class="card-body">
+        <h6 class="card-title">Tower {{t.towerId}} </h6>
+        <p class="card-text">
+          Circle : {{t.circle}}
+          Status : {{t.status?'Active':'GG'}}
+        </p>
+      </div>
+      <div class="card-footer" #cf>
+        <div class="btn-group">
+          <a routerLink="/viewTower/{{t.towerId}}" class="btn btn-primary">
+            View Details
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

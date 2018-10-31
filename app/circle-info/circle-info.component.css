@@ -1,0 +1,50 @@
+h2{
+    text-align: center;
+}
+a{
+    text-align: center;
+}
+
+*{
+    padding-bottom:  10px;
+    
+}
+div.card {
+    width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+ }
+
+ div.row{
+  
+    margin-bottom: 10px; /* Added */
+    position: absolute;
+ }
+
+ 
+    .button {
+        background-color: Crimson;  
+        border-radius: 5px;
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        text-align: center;
+        margin: 0 auto;
+        width: 100px; 
+      }
+      
+      .button:focus,
+      .button:hover {
+        background-color: FireBrick;
+        color: White;
+        transition-duration: 400ms;
+      }
+
+      .container{
+          text-align:center;
+          margin-top: 20px;
+          margin-bottom: 10px;
+
+      }
